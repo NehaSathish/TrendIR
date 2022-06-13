@@ -1,7 +1,13 @@
-# TrendIR
-This project is an Information Retrieval project to find trend of stock market using fuzzy logic on candlestick patterns.
-Python API of Yahoo finance is used to download OHLCV data.
-Additional features such as RSI(Relative Strength Index) are calculated.
-Candlestick features such as gaps, trends, wicks and body length are calculated.
-The numeric data is fuzzified and candlestick patterns are found. 
-TF-IDF is used to score the candlestick trend documents and forecasting is done based on document with highest score.
+Objective: Using Information Retrieval paradigm, find the trend of the stock market in the given future
+
+Key Tasks:
+- Using yahoo finance API, download OHLCV data
+- Calculate technical indicators such as RSI (Relative strength Index) for the given time period
+- Deriving candlestick features such as length of body, wick, gaps, trend from the given data
+- Applying fuzzy logic on the numeric candlestick data and converting into document form
+- Detecting candlestick patterns from the fuzzified data
+- Applying information retrieval scoring scheme TF-IDF to score the documents 
+- Forecasting the trend using modified TF-IDF
+
+Outcome:
+- Identifying the trend of the given stock as bearish, bullish or neutral to help make informed decisions and maximise ROI.
